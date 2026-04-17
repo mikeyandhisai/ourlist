@@ -124,7 +124,7 @@ function attachPairEvents() {
     pairId = ref.id;
     document.getElementById("pair-msg").innerHTML =
       `✅ Created! Share this code with your partner: <strong style="font-size:16px;color:#E8425A;">${ref.id}</strong><br/><small>They paste it in the "Join" box.</small>`;
-    setTimeout(() => { subscribeItems(); render(); }, 1800);
+    setTimeout(() => { subscribeItems(); render(); }, 3000);
   };
 
   document.getElementById("join-pair-btn").onclick = async () => {
